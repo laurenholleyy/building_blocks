@@ -2,7 +2,7 @@
 title: "Simple document"
 author: "Lauren Holley"
 date: 2026-09-17
-output: html_document
+output: github_document
 ---
    `html_document:`
    ` toc: True`
