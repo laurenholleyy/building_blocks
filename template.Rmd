@@ -1,6 +1,7 @@
 ---
 title: "Simple document"
 author: "Lauren Holley"
+date: 2026-09-17
 output: html_document
 ---
    `html_document:`
@@ -130,3 +131,8 @@ After the previous code chunk, write a bullet list given the mean, median, and s
 * The mean is: `r round(mean(pull(la_df, num_var)),2)`
 
 * The standard deviation is: `r round(sd(pull(la_df, num_var)),2)`
+
+What if I try to add a histogram 
+```{r}
+ggplot(plot_df, aes(x = x)) + geom_histogram()
+```
